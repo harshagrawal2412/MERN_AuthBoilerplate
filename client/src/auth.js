@@ -13,7 +13,7 @@ const auth = [
     LoginButton: "Login",
   },
   {
-    Title: "Login",
+    Title: "Register",
     RegisterHeader: "Register",
     ForgotPassword: "Forgot Password?",
     AccountConfimation: "Already have an account?",

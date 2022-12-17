@@ -85,7 +85,7 @@ const ResetPassword = ({ history, match }) => {
           />
         </div>
         <button type="submit" className="btn btn-primary">
-          {auth[3].RegisterButton}
+          {auth[3].ResetPasswordButton}
         </button>
       </form>
     </div>

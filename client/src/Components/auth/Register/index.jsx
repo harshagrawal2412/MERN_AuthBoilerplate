@@ -18,7 +18,7 @@ const RegisterScreen = ({ history }) => {
   });
 
   useEffect(() => {
-    document.title = "BlogMania-Login";
+    document.title = `${auth[1].Title}`;
   }, []);
 
   const registerHandler = async (e) => {

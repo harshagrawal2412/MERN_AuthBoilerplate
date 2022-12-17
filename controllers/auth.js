@@ -47,7 +47,6 @@ exports.forgotpassword = async (req, res, next) => {
     const message = `
     <h1>You have requested a password reset</h1>
     <p>Please click on the link to reset your password</p>
-    <img src="../Images/BlogMania384.png">
     <button style="background:red;color:white"><a href=${resetURL} clicktracking=off>Click Here</a></button>
 
   `;
