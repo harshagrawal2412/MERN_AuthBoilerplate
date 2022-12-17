@@ -1,0 +1,38 @@
+.forgotpasswordForm {
+  margin-top: 10vh !important;
+}
+.forgotpassword__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+}
+.btn__forgot {
+  width: 10em;
+}
+.forgotpassword__title {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.forgotpassword__subtext {
+  font-style: bold !important;
+}
+#email {
+  margin-left: 15px;
+}
+
+.success__message {
+  color: #14a520 !important;
+}
+.error__message {
+  color: #f00f0f !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  /* . {
+    position: relative;
+  } */
+}

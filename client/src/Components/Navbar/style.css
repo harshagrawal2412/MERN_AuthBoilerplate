@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background: white;
+  box-shadow: 0 0.2rem 2rem #0002;
+}
+
+.nav_logo {
+  height: 3rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.nav_links {
+  display: flex;
+}
+.nav_links li {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+}
