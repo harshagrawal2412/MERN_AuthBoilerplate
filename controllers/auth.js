@@ -43,9 +43,10 @@ exports.forgotpassword = async (req, res, next) => {
     const resetToken = user.getResetPasswordToken();
     await user.save();
     const resetURL = `http://localhost:3000/resetpassword/${resetToken}`;
-
+    console.log(user);
     const message = `
     <h1>You have requested a password reset</h1>
+    <h3>Hey!! ${user.username} forgot your password? Don't worry dude it's a common human behavior.</h3>
     <p>Please click on the link to reset your password</p>
     <button style="background:red;color:white"><a href=${resetURL} clicktracking=off>Click Here</a></button>
 

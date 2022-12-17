@@ -19,6 +19,10 @@ const UserSchema = new mongoose.Schema({
   },
   password: {
     type: String,
+    match: [
+      /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/,
+      "Password must include 0-9 and a uppercase letter and a lowercase letter and a special character",
+    ],
     required: [true, "Please enter a password"],
     minLength: 8,
     select: false,

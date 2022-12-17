@@ -17,7 +17,7 @@ const auth = [
     RegisterHeader: "Register",
     ForgotPassword: "Forgot Password?",
     AccountConfimation: "Already have an account?",
-    LoginLink: "Register here.",
+    LoginLink: "Login here.",
     RegisterButton: "Register",
   },
   {

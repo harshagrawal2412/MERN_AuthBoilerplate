@@ -134,7 +134,7 @@ const RegisterScreen = ({ history }) => {
 
         <span className="register-screen__subtext">
           {auth[2].AccountConfimation}{" "}
-          <Link to="/login">{auth[1].LoginLink}</Link>
+          <Link to="/login">{auth[2].LoginLink}</Link>
         </span>
       </form>
     </div>
