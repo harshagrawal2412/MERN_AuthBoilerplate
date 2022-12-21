@@ -49,7 +49,6 @@ exports.forgotpassword = async (req, res, next) => {
     <h3>Hey!! ${user.username} forgot your password? Don't worry dude it's a common human behavior.</h3>
     <p>Please click on the link to reset your password</p>
     <button style="background:red;color:white"><a href=${resetURL} clicktracking=off>Click Here</a></button>
-
   `;
 
     try {
