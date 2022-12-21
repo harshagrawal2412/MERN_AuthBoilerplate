@@ -91,7 +91,7 @@ const Login = ({ history }) => {
 
         <span className="login-screen__subtext">
           {auth[1].AccountConfimation}
-          <Link to="/register"> {auth[1].RegisterLink}</Link>
+          <Link to="/register">{auth[1].RegisterLink}</Link>
         </span>
       </form>
     </div>

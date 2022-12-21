@@ -25,7 +25,7 @@ function App() {
         />
         {/* <Route path="/login" exact element={<Login />} /> */}
         <Route path="*" exact component={NotFound} />
-        <Route path="*" exact component={Error} />
+        {/* <Route path="*" exact component={Error} /> */}
       </Switch>
     </Router>
   );
